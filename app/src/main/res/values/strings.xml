@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BrasilApp</string>
+    <string name="app_name">Brasil</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="antes_de_partir">Antes de Partir</string>
+    <string name="antes_de_partir_desc">Al realizar el viaje a Brasil, le recomendamos tomar ciertas consideraciones antes de viajar.</string>
 
 </resources>
