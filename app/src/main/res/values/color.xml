@@ -5,6 +5,7 @@
     <item name="primary" type="color">#4CAF50</item>
     <item name="primary_dark" type="color">#388E3C</item>
     <item name="gray_background" type="color">#EEEEEE</item>
+    <item name="photo_tint" type="color">#88101010</item>
 
 
 </resources>

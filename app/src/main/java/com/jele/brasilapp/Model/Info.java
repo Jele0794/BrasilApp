@@ -11,8 +11,7 @@ public class Info {
     public String description;
     public String imageName;
 
-    public int getImageResourceId(Context context)
-    {
+    public int getImageResourceId(Context context) {
         try {
             return context.getResources().getIdentifier(this.imageName, "drawable", context.getPackageName());
 

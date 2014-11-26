@@ -8,10 +8,10 @@ import java.util.List;
  */
 public class InfoManager {
 
-    private static String[] infoArray = {"Antes de Partir", "Protocolo de Negocios"};
-    //private static String[] infoDescArray = {"Al realizar el viaje a Brasil, le recomendamos tomar ciertas consideraciones antes de viajar.", "protocolation"};
+    private static String[] infoArray = {"Antes de Partir", "Protocolo de Negocios", "Informacion General"};
+    private static String[] infoDescArray = {"Al realizar el viaje a Brasil, le recomendamos tomar ciertas consideraciones antes de viajar.", "protocolation", "Information"};
     static int i = -1;
-            //, "Información General", "Protocolo de Negocios", "Recomendaciones de Negocios", "Emergencias"};
+    //, "Información General", "Protocolo de Negocios", "Recomendaciones de Negocios", "Emergencias"};
 
 
     private static InfoManager mInstance;
@@ -33,13 +33,13 @@ public class InfoManager {
                 i++;
                 Info informacion = new Info();
                 informacion.title = infoName;
-               // informacion.description = infoDescArray[i];
-                informacion.imageName = infoName.replaceAll("\\s+","").toLowerCase();
+                informacion.description = infoDescArray[i];
+                informacion.imageName = infoName.replaceAll("\\s+", "").toLowerCase();
                 tiposDeInfo.add(informacion);
             }
         }
 
-        return  tiposDeInfo;
+        return tiposDeInfo;
     }
 
 }

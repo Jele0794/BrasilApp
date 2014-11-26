@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Main theme colors -->
         <!--   your app branding color for the app bar -->
@@ -11,8 +12,6 @@
         <!-- Customize your theme here. -->
         <item name="android:colorBackground">@color/gray_background</item>
         <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
-
-
     </style>
 
     <style name="RobotoTextViewStyle" parent="android:Widget.TextView">

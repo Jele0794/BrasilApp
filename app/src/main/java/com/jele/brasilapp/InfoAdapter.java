@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Created by Edmundo on 11/25/14.
  */
-public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder>{
+public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
     private List<Info> tipoDeInfo;
     private int rowLayout;
     private Context mContext;
@@ -53,7 +53,7 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder>{
         public ViewHolder(View itemView) {
             super(itemView);
             infoTitle = (TextView) itemView.findViewById(R.id.title);
-            infoImage = (ImageView)itemView.findViewById(R.id.photo);
+             infoImage = (ImageView) itemView.findViewById(R.id.photo);
             infoDescrip = (TextView) itemView.findViewById(R.id.descripcion);
         }
 
