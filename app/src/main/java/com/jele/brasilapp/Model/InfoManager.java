@@ -8,10 +8,10 @@ import java.util.List;
  */
 public class InfoManager {
 
-    private static String[] infoArray = {"Antes de Partir", "Protocolo de Negocios", "Informacion General"};
-    private static String[] infoDescArray = {"Al realizar el viaje a Brasil, le recomendamos tomar ciertas consideraciones antes de viajar.", "protocolation", "Information"};
+    private static String[] infoArray = {"Antes de Partir", "Informacion General", "Protocolo de Negocios", "Recomendaciones de Negocios", "Emergencias"};
+    private static String[] infoDescArray = {"Antes de viajar, le recomendamos tomar ciertas consideraciones.", "Datos generales sobre el país.", "Acá encontrará información sobre como comunicarce con su socio, donde llevar a cabo su reunión de negocios y más.", "Tips para lograr mejores relaciones y demás con sus socios.","¿Tiene algún tipo de emergencia?"};
     static int i = -1;
-    //, "Información General", "Protocolo de Negocios", "Recomendaciones de Negocios", "Emergencias"};
+    // , "Emergencias"};
 
 
     private static InfoManager mInstance;

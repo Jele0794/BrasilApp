@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <item name="accent" type="color">#C8E6C9</item>
+    <item name="accent" type="color">#FF4081</item>
     <item name="primary" type="color">#4CAF50</item>
     <item name="primary_dark" type="color">#388E3C</item>
     <item name="gray_background" type="color">#EEEEEE</item>
