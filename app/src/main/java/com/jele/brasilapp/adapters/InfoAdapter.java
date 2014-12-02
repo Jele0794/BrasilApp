@@ -1,4 +1,4 @@
-package com.jele.brasilapp;
+package com.jele.brasilapp.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.jele.brasilapp.Model.Info;
+import com.jele.brasilapp.R;
+import com.jele.brasilapp.model.Info;
 
 import java.util.List;
 
@@ -53,7 +54,7 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
         public ViewHolder(View itemView) {
             super(itemView);
             infoTitle = (TextView) itemView.findViewById(R.id.title);
-             infoImage = (ImageView) itemView.findViewById(R.id.photo);
+            infoImage = (ImageView) itemView.findViewById(R.id.photo);
             infoDescrip = (TextView) itemView.findViewById(R.id.descripcion);
         }
 

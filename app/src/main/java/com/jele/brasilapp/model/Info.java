@@ -1,4 +1,4 @@
-package com.jele.brasilapp.Model;
+package com.jele.brasilapp.model;
 
 import android.content.Context;
 

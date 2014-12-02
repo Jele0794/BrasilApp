@@ -1,4 +1,6 @@
-package com.jele.brasilapp.Model;
+package com.jele.brasilapp.fragments.antes_model;
+
+import com.jele.brasilapp.model.Info;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,20 +8,19 @@ import java.util.List;
 /**
  * Created by Edmundo on 11/25/14.
  */
-public class InfoManager {
+public class AntesInfoManager {
 
-    private static String[] infoArray = {"Antes de Partir", "Informacion General", "Protocolo de Negocios", "Recomendaciones de Negocios", "Emergencias"};
-    private static String[] infoDescArray = {"Antes de viajar, le recomendamos tomar ciertas consideraciones.", "Datos generales sobre el país.", "Acá encontrará información sobre como comunicarce con su socio, donde llevar a cabo su reunión de negocios y más.", "Tips para lograr mejores relaciones y demás con sus socios.","¿Tiene algún tipo de emergencia?"};
+    private static String[] infoArray = {"Informacion General", "Recomendaciones",  "Clima", "Tramites"};
+    private static String[] infoDescArray = {"Datos generales sobre el país.", "Objetos importantes que llevar, lugares para visitar y comer en su viaje.", "", "¿Tiene los papeles y permisos para viajar?"};
     static int i = -1;
-    // , "Emergencias"};
 
 
-    private static InfoManager mInstance;
+    private static AntesInfoManager mInstance;
     private List<Info> tiposDeInfo;
 
-    public static InfoManager getInstance() {
+    public static AntesInfoManager getInstance() {
         if (mInstance == null) {
-            mInstance = new InfoManager();
+            mInstance = new AntesInfoManager();
         }
 
         return mInstance;

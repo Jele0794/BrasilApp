@@ -1,36 +1,38 @@
 package com.jele.brasilapp;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 
-import com.jele.brasilapp.Model.InfoManager;
+import com.jele.brasilapp.adapters.ViewPagerAdapter;
+import com.jele.brasilapp.view.SlidingTabLayout;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
-    private InfoAdapter mAdapter;
-    private RecyclerView mRecyclerView;
+    private ViewPager pager;
+    private ViewPagerAdapter adapter;
+    private SlidingTabLayout slidingTab;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mRecyclerView = (RecyclerView) findViewById(R.id.cardList);
-        mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+        Toolbar toolbar = (Toolbar) findViewById(R.id.my_awesome_toolbar);
+        setSupportActionBar(toolbar);
 
-        mAdapter = new InfoAdapter(InfoManager.getInstance().getInformationCards(), R.layout.card_layout, this);
-        mRecyclerView.setAdapter(mAdapter);
+        pager = (ViewPager) findViewById(R.id.pager);
+        adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        pager.setAdapter(adapter);
+
+        slidingTab = (SlidingTabLayout) findViewById(R.id.sliding_tabs);
+        slidingTab.setViewPager(pager);
+
     }
-
 
 
 }
