@@ -5,7 +5,7 @@ package com.jele.brasilapp.model;
  */
 public class TabsNames {
 
-    public String[] tabsNames = {"Antes de Partir", "Negocios"};
+    public String[] tabsNames = {"Antes de Partir", "Dentro del País","Negocios"};
 
     public TabsNames() {
 

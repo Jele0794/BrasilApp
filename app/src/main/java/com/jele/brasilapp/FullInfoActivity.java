@@ -36,16 +36,17 @@ public class FullInfoActivity extends ActionBarActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Back button pressed", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 
-        if (title.contentEquals("Informacion General") || title.contentEquals("Recomendaciones Generales") || title.contentEquals("Clima") || title.contentEquals("Tramites")) {
+        if (title.contentEquals("Informacion General") || title.contentEquals("Recomendaciones Generales") || title.contentEquals("Clima") || title.contentEquals("Tramites")){
             getSupportActionBar().setTitle(tabsNames.tabsNames[0]);
-        } else if (title.contentEquals("Modelo de Comunicacion") || title.contentEquals("Protocolo de Negocios") || title.contentEquals("Recomendaciones de Negocios") || title.contentEquals("Codigo de Vestimenta")) {
+        } else if (title.contentEquals("Lugares de Interes") || title.contentEquals("Transporte") || title.contentEquals("Emergencias")) {
             getSupportActionBar().setTitle(tabsNames.tabsNames[1]);
+        }else if (title.contentEquals("Modelo de Comunicacion") || title.contentEquals("Protocolo de Negocios") || title.contentEquals("Recomendaciones de Negocios") || title.contentEquals("Codigo de Vestimenta")) {
+            getSupportActionBar().setTitle(tabsNames.tabsNames[2]);
         }
-
 
         ImageView imageView = (ImageView) findViewById(R.id.full_info_image_view);
         imageView.setImageDrawable(getDrawable(imageId));
@@ -58,9 +59,26 @@ public class FullInfoActivity extends ActionBarActivity {
         if (title.contentEquals("Informacion General")) {
             textViewBody.setText(getResources().getText(R.string.informacion_general_body));
         } else if (title.contentEquals("Recomendaciones Generales")) {
-            textViewBody.setText(getResources().getText(R.string.informacion_general_body));
+            textViewBody.setText(getResources().getText(R.string.recomendaciones_generales_body));
+        } else if (title.contentEquals("Clima")) {
+            textViewBody.setText(getResources().getText(R.string.clima_body));
+        } else if (title.contentEquals("Tramites")) {
+            textViewBody.setText(getResources().getText(R.string.tramites_body));
+        } else if (title.contentEquals("Lugares de Interes")) {
+            textViewBody.setText(getResources().getText(R.string.lugares_de_interes_body));
+        } else if (title.contentEquals("Emergencias")) {
+            textViewBody.setText(getResources().getText(R.string.emergencias_body));
+        } else if (title.contentEquals("Transporte")) {
+            textViewBody.setText(getResources().getText(R.string.transporte_body));
+        } else if (title.contentEquals("Modelo de Comunicacion")) {
+            textViewBody.setText(getResources().getText(R.string.modelo_de_comunicacion_body));
+        } else if (title.contentEquals("Protocolo de Negocios")) {
+            textViewBody.setText(getResources().getText(R.string.protocolo_de_negocios_body));
         } else if (title.contentEquals("Recomendaciones de Negocios")) {
             textViewBody.setText(getResources().getText(R.string.recomendaciones_de_negocios_body));
+        } else if (title.contentEquals("Codigo de Vestimenta")) {
+            textViewBody.setText(getResources().getText(R.string.codigo_de_vestimenta_body));
+        }
 
 
         }
@@ -89,4 +107,4 @@ public class FullInfoActivity extends ActionBarActivity {
 
 
     }
-}
+
