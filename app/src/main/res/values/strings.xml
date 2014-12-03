@@ -7,4 +7,14 @@
     <string name="antes_de_partir">Antes de Partir</string>
     <string name="antes_de_partir_desc">Al realizar el viaje a Brasil, le recomendamos tomar ciertas consideraciones antes de viajar.</string>
 
+    <!-- Body text -->
+    <string name="informacion_general_body">        Brasil es un país de América del sur con una superficie estimada en
+        8.5 millones de kilómetros cuadrados, ubicándolo como el quinto país más grande del mundo. Y por si fuera poco,
+        Brasil cuenta con 7492 kilómetros de línea costera (por si no sólo va de trabajo).</string>
+    <string name="recomendaciones_de_negocios_body">Las buenas impresiones son claves: si se invita a un socio brasileño a una reunión,
+        debe realizarse en un sitio de renombre. También se recomienda no concertar el encuentro en el hotel donde el viajero
+        se está hospedando, ya que no ello no es visto de la mejor forma. La opción más indicada es un restaurante de buena
+        categoría cerca de la empresa con la que se realizará el negocio.</string>
+    <string name="title_activity_full_info"></string>
+
 </resources>

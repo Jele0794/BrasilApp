@@ -9,9 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jele.brasilapp.fragments.antes_model.AntesInfoManager;
 import com.jele.brasilapp.R;
 import com.jele.brasilapp.adapters.InfoAdapter;
+import com.jele.brasilapp.fragments.antes_model.AntesInfoManager;
 
 /**
  * Created by Edmundo on 12/1/14.
@@ -41,4 +41,12 @@ public class AntesDePartirFrag extends Fragment {
 
         return rootView;
     }
+
+    /*public void accion(View view){
+
+    Toast.makeText(getActivity(),"Precionaste la carta...", Toast.LENGTH_SHORT);
+
+    }*/
+
+
 }

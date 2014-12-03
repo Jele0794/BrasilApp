@@ -1,6 +1,10 @@
 package com.jele.brasilapp.adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.jele.brasilapp.FullInfoActivity;
 import com.jele.brasilapp.R;
 import com.jele.brasilapp.model.Info;
 
@@ -35,10 +40,28 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
-        Info info = tipoDeInfo.get(i);
+        final Info info = tipoDeInfo.get(i);
         viewHolder.infoTitle.setText(info.title);
         viewHolder.infoDescrip.setText(info.description);
         viewHolder.infoImage.setImageDrawable(mContext.getDrawable(info.getImageResourceId(mContext)));
+        viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(mContext, FullInfoActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("title", info.title);
+                bundle.putInt("imageID", info.getImageResourceId(mContext));
+                intent.putExtras(bundle);
+                mContext.startActivity(intent);
+
+
+
+
+                //  Toast.makeText(mContext, info.description, Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     @Override

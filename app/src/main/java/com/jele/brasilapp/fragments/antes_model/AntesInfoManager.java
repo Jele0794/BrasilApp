@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class AntesInfoManager {
 
-    private static String[] infoArray = {"Informacion General", "Recomendaciones",  "Clima", "Tramites"};
+    private static String[] infoArray = {"Informacion General", "Recomendaciones Generales", "Clima", "Tramites"};
     private static String[] infoDescArray = {"Datos generales sobre el país.", "Objetos importantes que llevar, lugares para visitar y comer en su viaje.", "", "¿Tiene los papeles y permisos para viajar?"};
     static int i = -1;
 

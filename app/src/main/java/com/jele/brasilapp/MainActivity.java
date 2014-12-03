@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.jele.brasilapp.adapters.ViewPagerAdapter;
 import com.jele.brasilapp.view.SlidingTabLayout;
@@ -32,7 +34,16 @@ public class MainActivity extends ActionBarActivity {
         slidingTab = (SlidingTabLayout) findViewById(R.id.sliding_tabs);
         slidingTab.setViewPager(pager);
 
+
+
+   /* public void accion(View view){
+
+        String título;
+        TextView textView = (TextView) findViewById(R.id.title);
+        textView.getText();
+        Toast.makeText(this,textView.getText(), Toast.LENGTH_SHORT).show();
+
+    }*/
+
     }
-
-
 }

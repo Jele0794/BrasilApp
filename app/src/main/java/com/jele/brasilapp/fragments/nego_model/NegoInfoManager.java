@@ -31,13 +31,13 @@ public class NegoInfoManager {
             tiposDeInfo = new ArrayList<Info>();
 
 
-            /*Info informacion = new Info();
-            informacion.title = infoArray[1];
-            informacion.description = infoDescArray[1];
+          /*  Info informacion = new Info();
+            informacion.title = infoArray[0];
+            informacion.description = infoDescArray[0];
             informacion.imageName = infoArray[1].replaceAll("\\s+", "").toLowerCase();
             tiposDeInfo.add(informacion);*/
 
-           for (String infoName : infoArray) {
+            for (String infoName : infoArray) {
                 i++;
                 Info informacion = new Info();
                 informacion.title = infoName;

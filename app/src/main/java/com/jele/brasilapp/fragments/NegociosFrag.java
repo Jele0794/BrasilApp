@@ -37,6 +37,7 @@ public class NegociosFrag extends Fragment {
 
         mAdapter = new InfoAdapter(NegoInfoManager.getInstance().getInformationCards(), R.layout.card_layout, getActivity());
         mRecyclerView.setAdapter(mAdapter);
+
         return rootView;
     }
 
