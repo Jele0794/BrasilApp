@@ -1,4 +1,4 @@
-package com.jele.brasilapp.fragments.antes_model;
+package com.jele.brasilapp.fragments.dentro_model;
 
 import com.jele.brasilapp.model.Info;
 
@@ -8,19 +8,19 @@ import java.util.List;
 /**
  * Created by Edmundo on 11/25/14.
  */
-public class AntesInfoManager {
+public class DentroInfoManager {
 
-    private static String[] infoArray = {"Informacion General", "Recomendaciones Generales", "Clima", "Tramites"};
-    private static String[] infoDescArray = {"Datos generales sobre el país.", "Objetos importantes que llevar, lugares para visitar y comer en su viaje.", "Prepare sus pertenencias, teniendo en cuenta el clima del país.", "¿Tiene los papeles y permisos para viajar?"};
+    private static String[] infoArray = {"Lugares de Interes", "Transporte", "Emergencias"};
+    private static String[] infoDescArray = {"Sabemos que no todo son negocios, por lo que acá encontrará algunos lugares que visitar.", "¿No quiere rentar un vehículo? Aquí encontrará información de transporte público.", "¿Tiene algúna emergencia?"};
     static int i = -1;
 
 
-    private static AntesInfoManager mInstance;
+    private static DentroInfoManager mInstance;
     private List<Info> tiposDeInfo;
 
-    public static AntesInfoManager getInstance() {
+    public static DentroInfoManager getInstance() {
         if (mInstance == null) {
-            mInstance = new AntesInfoManager();
+            mInstance = new DentroInfoManager();
         }
 
         return mInstance;

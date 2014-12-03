@@ -11,10 +11,134 @@
     <string name="informacion_general_body">        Brasil es un país de América del sur con una superficie estimada en
         8.5 millones de kilómetros cuadrados, ubicándolo como el quinto país más grande del mundo. Y por si fuera poco,
         Brasil cuenta con 7492 kilómetros de línea costera (por si no sólo va de trabajo).</string>
-    <string name="recomendaciones_de_negocios_body">Las buenas impresiones son claves: si se invita a un socio brasileño a una reunión,
+    <string name="recomendaciones_de_negocios_body">Las buenas impresiones son clave: si se invita a un socio brasileño a una reunión,
         debe realizarse en un sitio de renombre. También se recomienda no concertar el encuentro en el hotel donde el viajero
         se está hospedando, ya que no ello no es visto de la mejor forma. La opción más indicada es un restaurante de buena
-        categoría cerca de la empresa con la que se realizará el negocio.</string>
+        categoría cerca de la empresa con la que se realizará el negocio.\n\n
+        •	Son personas abiertas que gustan entablar lazos sociales.\n
+        •	Los desayunos o almuerzos de negocios pueden extenderse.\n
+        •	Café en los encuentros de negocios, tanto antes como durante el evento.\n
+        •	Siempre conviene dejar algunas horas de intervalo al agendar dos reuniones el mismo día, por si la primera se extiende más de lo planeado.\n
+        •	Fortalecer la confianza es clave para establecer negocios.\n
+        •	Indispensable establecer contactos telefónicos previos a la realización de la reunión.\n
+        •	Antes de concretar cualquier negocio, los brasileños deben conocer a la persona y entablar un diálogo directo.\n
+        •	 La decisión final de cualquier proceso comercial es tomada por la persona con cargo superior en la empresa o en el área con la que se está negociando.\n
+        •	Antes de firmar cualquier acuerdo, se aconseja con un abogado.\n
+        •	Los contratos que se cumplen dentro del país se redactan en portugués y tienen como moneda para transacciones el Real.\n
+        •	El idioma utilizado y la divisa solo son extranjeras si el objeto del negocio se encuentra fuera de Brasil.\n
+        •	Es un apreciable gesto de cortesía hablar en portugués, al menos algunas expresiones básicas como los saludos o los agradecimientos.\n</string>
+    <string name="emergencias_body">
+        100* - Secretaría de los Derechos Humanos\n
+        128* - Servicios de Emergencia en el entorno de Mercosul\n
+        180* - Delegación Especializada de Atención a la Mujer\n
+        181* - Número de denuncia anónimo\n
+        190* - Policía Militar\n
+        191* - Policía de Carreteras Federal\n
+        192* - Servicio Público de Traslado de Enfermos (ambulancia)\n
+        193* - Cuerpo de Bomberos\n
+        197* - Policía Civil\n
+        198* - Policía de Carreteras Estatal\n
+        199* - Protección Civil\n
+    </string>
+
+    <string name="recomendaciones_generales_body">
+        Algunas de las recomendaciones más importantes para viajar a Brasil:\n\n
+        •	Es importante aplicarse la vacuna contra la fiebre amarilla cuando viajes a destinos con regiones de floresta y ríos. Para algunos turistas de ciertos países
+        sí es obligatoria además de un certificado de que la tienen; pero en nuestro caso sólo es recomendable cuando se visiten sitios con flora y ríos.\n\n
+        •	Con respecto a electrodomesticos, en Brasil se utilizan enchufes de tres patas, por lo que es importante que antes de salir hacia Brasil consigas estos adaptadores
+        y si es posible un convertidor de voltaje, ya que varía entre 110 y 220 volts dependiendo de la ciudades.\n\n
+        •	Y finalmente, las recomendaciones más importantes incluyen: acatar las leyes de Brasil y tener un comportamiento adecuado para el país, alejarte de lugares donde prolifera
+        el dengue, cuidar tu pasaporte y tener una copia de él en el correo electrónico por cualquier cosa, así como cuidar tu dinero y pertenencias.
+    </string>
+
+    <string name="transporte_body">
+        Taxis:\n\n
+        •	Tarifa bandeira 1(normal)\n
+        •	Tarifa bandeira 2 (recorridos nocturnos o de días festivos, 	el taxímetro corre más rápidamente)\n\n
+            Metros en las ciudades:\n\n
+        •	Metro de Belo Horizonte\n
+        •	Metro de Brasília\n
+        •	Metro de Curitiba (en etapa de planificación)\n
+        •	Metro de Fortaleza (en construcción)\n
+        •	Metro de Goiânia (en etapa de planificación)\n
+        •	Metro de Porto Alegre\n
+        •	Metro de Recife\n
+        •	Metro de Rio de Janeiro\n
+        •	Metro de Salvador (en construcción)\n
+        •	Metro de São Paulo\n
+        •	Metro de Teresina\n
+    </string>
+
+    <string name="modelo_de_comunicacion_body">
+        En cuanto a los idiomas, el brasileño ha optado por el inglés como segundo idioma.\n\n
+        Por otro lado, el español es un idioma sencillo para los brasileños gracias a la similitud con el portugués, sin embargo, es considerado un gesto de cortesía hablar su idioma, o al menos algunas expresiones básicas como los saludos o agradecimientos.
+
+    </string>
+
+    <string name="clima_body">
+        Brasil cuenta con una amplia variedad de condiciones climáticas, sin embargo se puede considerar que la mayor parte del país cuenta con un clima tropical. Por otro lado, Brasil cuenta con subtipos climáticos principales: ecuatorial, tropical, semiárido y templado.
+        La temperatura promedio es de 25ºC, por lo que puede variar en el día como en la noche.\n\n
+        Al ser un país del hemisferio sur las estaciones son inversas a las del norte. Verano de Diciembre a Febrero e invierno de Junio a Septiembre.    </string>
+
+    <string name="protocolo_de_negocios_body">
+        La importancia que tienen las relaciones de confianza para los brasileños hace que se indispensable establecer contactos telefónicos previos a la realización de la reunión. Difícilmente un empresario brasileño acceda a un encuentro solo a partir de un contacto online.
+        Antes de concretar cualquier negocio, los brasileños deben conocer a la persona y entablar un diálogo directo. Lo mismo ocurre con los productos: ninguna empresa accederá a comprar nada sin antes haberlo evaluado personalmente.\n\n
+        Los procesos de negociación suelen ser más lentos que en otros países debido a esa necesidad de fortalecer la confianza antes de efectuar cualquier acuerdo. Es frecuente que los brasileños no aporten demasiados datos al comienzo: para obtener respuestas certeras es necesario
+        que el vínculo sea sólido. Las técnicas de presión o las actitudes de arrogancia no funcionan en este proceso.\n\n
+        Las empresas brasileñas tienen una estructura jerárquica muy definida. La decisión final de cualquier proceso comercial es tomada por la persona con cargo superior en la empresa o en el área con la que se está negociando.\n\n
+        Antes de firmar cualquier acuerdo, se aconseja con un abogado brasileño ya que el sistema legal del país es complejo. Hay que tener en cuenta que los contratos que se cumplen dentro del país se redactan en portugués y tienen como moneda para transacciones el Real.
+        El idioma utilizado y la divisa solo son extranjeras si el objeto del negocio se encuentra fuera de Brasil.
+    </string>
+
+    <string name="tramites_body">
+        Como en todos los países, en Brasil hay ciertos datos que debes saber para poder ingresar y así evitar contratiempos o faltas a la ley, por ello mencionaremos las mas importantes:\n\n
+        •	Es importante llevar documentos que aseguren la salida del país, es decir, una reservación de hotel, los boletos de avión de regreso y que sepan que vas de turista. Esto es así porque
+        “a partir del 16 de mayo del 2013, los gobiernos de México y Brasil acordaron la supresión del visado de corta duración en pasaportes ordinarios para sus ciudadanos, por lo que los mexicanos
+        que viajen en calidad de turista a Brasil no necesitan visa”, así lo dice el Consulado General de Brasil en México.\n\n
+        •	El pasaporte se muestra y es importante que éste tenga vigencia de 6 meses posteriores a la fecha de entrada y en algunos casos se
+        solicita que el turista compruebe con estados de cuenta que tiene el dinero para permanecer el tiempo que ha declarado.\n\n
+    </string>
+
+    <string name="recomendacionegss_generales_body">
+        Como en todos los países, en Brasil hay ciertos datos que debes saber para poder ingresar y así evitar contratiempos o faltas a la ley, por ello mencionaremos las mas importantes:\n\n
+        Es importante llevar documentos que aseguren la salida del país, es decir, una reservación de hotel, los boletos de avión de regreso y que sepan que vas de turista. Esto es así porque
+        “a partir del 16 de mayo del 2013, los gobiernos de México y Brasil acordaron la supresión del visado de corta duración en pasaportes ordinarios para sus ciudadanos, por lo que los mexicanos
+        que viajen en calidad de turista a Brasil no necesitan visa”, así lo dice el Consulado General de Brasil en México.\n\n
+        El pasaporte se muestra y es importante que éste tenga vigencia de 6 meses posteriores a la fecha de entrada y en algunos casos se
+        solicita que el turista compruebe con estados de cuenta que tiene el dinero para permanecer el tiempo que ha declarado.\n\n
+    </string>
+
+    <string name="lugares_de_interes_body">
+        Le presentamos 10 principales lugares túristicos de Brasil:\n\n
+        •	Cristo Redentor\n
+        •	Pan de Azúcar\n
+        •	Elevador Lacerda\n
+        •	Museo de arte de Sao Paulo\n
+        •	Centro Histórico de Porto Seguro\n
+        •	Parque nacional de Iguazú\n
+        •	Las playas de Recife\n
+        •	Encuentro de las aguas (Río Negro y el río Solimões)\n
+        •	Bonito (Mato Grosso do Sul)\n
+        •	Playa de Copacabana
+    </string>
+
+    <string name="codigo_de_vestimenta_body">
+        El clima tropical de Brasil hace que para muchas personas sea incómodo ese ambiente tan caluroso y húmedo. Por ello es aconsejable vestir tejidos ligeros y frescos como el algodón,
+        el lino y tejidos similares. Los colores siempre claros o tonos pastel.\n\n
+        En cualquier reunión en Brasil, aunque sea de ejecutivos hay mucha diversidad de vestuarios. Informales de chaqueta, camisa fina y pantalón de tejido fresco. Puede incluso vestir
+        de vaqueros, y no estar mal visto, siempre que se conjunte con alguna prenda más formal como una chaqueta. La flexibilidad es muy alta en cuanto a vestuario en Brasil.\n\n
+        Los trajes de corte clásico y de color oscuro se reservan para la época de invierno. En primavera y verano se permiten vestuarios mucho más de sport. Los trajes hechos a medida denotan
+        un estatus social alto o al menos de buena posición en la sociedad brasileña. También vestir trajes de importación suele ser seña de identidad de las clases sociales más altas o pudientes.\n\n
+        Las señoras pueden vestir traje de chaqueta en las estaciones del invierno y el otoño y algo menos formal para la primavera y el verano. Los conjuntos de falda y blusa o pantalón blusa son los más indicados para casi todas las ocasiones.\n\n
+        Los complementos son muy importantes; se deben lucir muy pocos pero de calidad. En cuanto a los zapatos, aunque el clima es caluroso, no se deben utilizar sandalias o zapatos abiertos para reuniones de negocios. Solamente se deben utilizar en
+        ocasiones informales: cuando nos invitan a una finca, un club de recreo o situaciones similares, puede lucir un calzado más veraniego.\n\n
+        Los zapatos siempre bien limpios y, a ser posible, a juego con el cinturón. Las corbatas acordes al traje. En invierno corbatas más sobrias y en verano, si las utiliza, un poco más informales (colores más cálidos, estampados más atrevidos, etc.).\n\n
+        En un país de tanto calor la higiene personal es fundamental en todos los aspectos. Olor corporal, sudor, etc. Hay que ser muy escrupulosos con la higiene de nuestro cuerpo, el pelo y las manos, sobre todo especial cuidado con las uñas. En el caso de
+        las mujeres, el maquillaje, las uñas y los pintalabios son muy importantes porque los brasileños son muy dados a fijarse en estos detalles en las mujeres.\n\n
+        Si tiene una vida social intensa durante su estancia en Brasil no se olvide meter en su maleta un smoking y si es una señora, un vestido negro que siempre le puede sacar de más de un apuro.
+
+    </string>
+
     <string name="title_activity_full_info"></string>
 
 </resources>

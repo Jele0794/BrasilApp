@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.jele.brasilapp.fragments.AntesDePartirFrag;
+import com.jele.brasilapp.fragments.DentroDelPiasFrag;
 import com.jele.brasilapp.fragments.NegociosFrag;
 import com.jele.brasilapp.model.TabsNames;
 
@@ -26,6 +27,8 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
             case 0:
                 return new AntesDePartirFrag();
             case 1:
+                return new DentroDelPiasFrag();
+            case 2:
                 return new NegociosFrag();
 
         }
